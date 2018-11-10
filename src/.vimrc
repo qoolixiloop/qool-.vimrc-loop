@@ -126,7 +126,7 @@ inoremap <leader><leader>wwww <esc>llbveeee"+y<esc>i
 inoremap <leader><leader>wwwww <esc>llbveeeee"+y<esc>i
 inoremap <leader><leader>wwwwww <esc>llbveeeeee"+y<esc>i
 
-" I: copy wholw lines in insert mode to clipboard
+" I: copy whole lines in insert mode to clipboard
 inoremap <leader><leader>q <esc><S-v>"+y<esc>i
 inoremap <leader><leader>qq <esc><S-v>j"+y<esc>i
 inoremap <leader><leader>qqq <esc><S-v>jj"+y<esc>i
@@ -261,22 +261,25 @@ filetype plugin on
 filetype indent on
 " }}}
 
-" Vimscript filetype settings --------------------------------------------- {{{
+" Vimscript filetype settings (e.g. fold methods)-------------------------- {{{
 " key strokes "za" let you toggle between folding and not folding
 " check the filetype of a file with echo &filetype
 " (for already existing files you need to run the command manually
 " :setlocal foldmethod=marker)
+" more about it: http://vim.wikia.com/wiki/Folding
 "------------------------------------------------------------------------------
 " Enable folding/unfolding with the spacebar
 nnoremap <space> za
 augroup filetype_vim
   autocmd!		
+  autocmd BufReadPre * setlocal foldmethod=indent
   autocmd FileType vim setlocal foldmethod=marker foldlevel=0
+  au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
 augroup END
 "------------------------------------------------------------------------------
 " }}}
 
-" Python filetype settings ------------------------------------------------ {{{
+" Python filetype settings (e.g. fold methods)----------------------------- {{{
 "------------------------------------------------------------------------------
 augroup filetype_python
   autocmd!
@@ -293,7 +296,7 @@ augroup END
 "------------------------------------------------------------------------------
 " }}}
 
-" Java filetype settings -------------------------------------------------- {{{
+" Java filetype settings (e.g. fold methods)------------------------------- {{{
 "------------------------------------------------------------------------------
 augroup filetype_java
   autocmd!    
@@ -302,11 +305,14 @@ augroup END
 "------------------------------------------------------------------------------
 " }}}
 
-" Bash filetype settings -------------------------------------------------- {{{
+" Bash filetype settings (e.g. fold methods)------------------------------- {{{
+" manual folds: select in visual mode and press zf, delete it with zd
 "------------------------------------------------------------------------------
 augroup fietype_bash
   autocmd!    
+  autocmd BufReadPre * setlocal foldmethod=indent
   autocmd FileType sh set foldmethod=indent foldlevel=99
+  autocmd BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
 augroup END
 "------------------------------------------------------------------------------
 " }}}
@@ -517,7 +523,11 @@ runtime ftplugin/man.vim
 " -----------------------------------------------------------------------------
 noremap <silent> <leader>md :call Open_Md_Files_With_Grip_In_Firefox()<cr>
 function! Open_Md_Files_With_Grip_In_Firefox() abort
-  execute ':!grip ' . shellescape(expand('%:p')).'&'
+  " run grip in terminal with current buffer (%) whole path(:p) 
+  " in background (&) 
+  " no messages (> /dev/null 2>&1)
+  execute ':!grip ' . shellescape(expand('%:p')).'> /dev/null 2>&1 &'
+  " start firefox tab with grip server port
   execute ':!firefox http://localhost:6419'
 endfunction 
 "------------------------------------------------------------------------------
