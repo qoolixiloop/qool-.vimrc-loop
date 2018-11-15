@@ -14,14 +14,14 @@
 >
 > ⏳
 >
-> #### Why could you profit from the content of this repository?...
+> #### Why could you profit from the content of this repository?
 > * Maybe because you already have Vim installed, and would like to try out my configuration, instead of creating one on your own.  
 > But you are not sure, whether it serves your purpose.  
 >
 > * Or perhaps because you already have your own '.vimrc' configuration and would like to copy/paste some of my content.  
 > But you are struggling to understand the effects of the different parts.  
 >
-> * Or because you have already downloaded the '.vim' folder as well as the '.vimrc' configuration file from [my vim repository][1401], and have read the [content of my vim wiki pages][1402].  
+> * Or because you have already downloaded the '.vim' folder as well as the '.vimrc' configuration file from [my vim repository][1401], and have read the content of [my vim wiki pages][1402].  
 > But now you would like to understand every single line of the '.vimrc' file.  
 >
 > Did you find anything?  
@@ -56,20 +56,20 @@
 > The file and the folder are ready to be shared. Please click the button below to get further instructions.  
 >
 > <details>
-> <summary> 📖  show the examples </summary>
+> <summary> 📖  show resources to download </summary>
 > 🎁
 >   
-> 1. Go to your download folder (on Linux Ubuntu)
+> 1. Go to your download folder (on Linux Ubuntu)  
 >        $ cd ~/Downloads
 >
 > 2. Clone the repository into your download folder   
->        $ https://github.com/qoolixiloop/qool-.vimrc-loop.git
+>        $ git clone https://github.com/qoolixiloop/qool-.vimrc-loop.git
 >
 > 3. In case you already have an own copy of the '.vim' folder and '.vimrc' file in your home directory you might want to move them first into a backup folder or rename them.
 >
-> 4. Now you can savely move my '.vim' folder and '.vimrc' file it to your home directory.
->        $ mv src/.vimrc $HOME
->        $ mv src/.vim $HOME
+> 4. Now you can savely move my '.vim' folder and '.vimrc' file it to your home directory.  
+>        $ mv src/.vimrc $HOME  
+>        $ mv src/.vim $HOME  
 >
 > 🎁
 > </details>
@@ -86,23 +86,23 @@
 >
 > 📜
 >   
->    * In case you would like to install some additional software, like shellcheck or powerline from your software center, in Linux Ubuntu just type:  
->         $ sudo apt install powerline
+>    * In case you would like to install some additional software, like Shellcheck or Powerline from your software center, in Linux Ubuntu just type:  
+>         $ sudo apt install powerline  
 >         $ sudo apt install shellcheck  
 >
 >    * Open Vim on Linux Ubuntu with:  
->         $ vim
+>         $ vim  
 >    
 >    * The only plugin I left in my '.vim' folder is the plugin manager. In order to download the needed plugins, just type:  
->         :PlugInstall  
+>         :PlugInstall    
 >    
 >    * Now you can open an existing file or create a new one in a new tab in Vim.  
 >         :tabnew filename  
 >    
->    * That's it! To save the file just type:
->         :w
+>    * That's it! To save the file just type:  
+>         :w  
 >
-> * In order to get the promised [explanations about the content of my '.vimrc' file][1503] you may later want to visit my wiki page. (Ctrl-click to open the link in a new tab)
+> * In order to get the promised explanations about the [content of my '.vimrc' file][1503] you may later want to visit my wiki page. (Ctrl-click to open the link in a new tab)  
 >
 >📜
 </details>
@@ -113,7 +113,7 @@
 ### 🌎 Links
 > To share the links of web pages, which present their content in a clear and easy to read manner is one of the main objectives of my repositories. There is no need to reinvent the wheel, because most of the time there are already excellent resources out there, where the reader can find the needed information. But often, even with the help of one's preferred search engine, one ends up spending one's time with searching instead of working.   
 >
-> One word of advice: More importantly than learning everything or loading your Vim with ever more plugins is getting advice on how to work efficiently. I personally use Tmux to create windows, use Vim netrw to open files in tabs, use manual folding for easy scrolling in my file (with a trick in my configuration file, so that they are stored after closing). I first used the Vimtutor, which taught me within an hour, how to open/save a file, copy/paste, search/replace, or how to navigate.
+> **Word of advice:** More importantly than learning everything or loading your Vim with ever more plugins is getting advice on how to work efficiently. I personally use Tmux to create windows, use Vim netrw to open files in tabs, use manual folding for easy scrolling in my file (with a trick in my configuration file, so that they are stored after closing). I first used the Vimtutor, which taught me within an hour, how to open/save a file, copy/paste, search/replace, or how to navigate. To compare or merge files I usually use Vimdiff or kdiff3.
 >
 > By clicking the button below you will see the links of some sites I bookmarked and some internal resources I used to learn about Vim, Vimscript and its configuration.  
 >
@@ -126,9 +126,9 @@
 > |:---------------------------------------- | :----------------------------------------| 
 > | over 1600 excellent pages         | [Fandom vim Tips Wiki][11]  |
 > | learn Vimscript and how to write a plugin | [Learn Vimscript the hard way][12]  |
-> | keyboard picture with Vim key bindings   | [Graphical vi-vim Cheat Sheet and Tutorial][13]
-> | list of default vim key bindings | [Vim Commands Cheat Sheet][15]
-> | also very useful for specific questions | [Stackoverflow][14]
+> | keyboard picture with Vim key bindings   | [Graphical vi-vim Cheat Sheet and Tutorial][13] |
+> | list of default vim key bindings | [Vim Commands Cheat Sheet][15] |
+> | also very useful for specific questions | [Stackoverflow][14] |
 >
 > * There are many other summaries about Vim key bindings. Just type 'Vim cheet sheet' into your search engine. But be warned, for some of them you need really good eyes. I usually just copy/paste what I need into a libreoffice writer document, and make my own summary.
 >
@@ -139,11 +139,11 @@
 >         :help  
 >         /quickref  
 >
-> * There is also a tutor page, which is very useful, to learn the basics of the Vim editor.  
->         $ vimtutor
+> * There is also a tutor page, which is very useful, to learn the basics about the Vim editor.  
+>         $ vimtutor  
 >
-> * To check your Vim version (and e.g. if it is compile with Python 3)  
->         :version
+> * To check your Vim version (and e.g. whether it is compiled with Python 3)  
+>         :version  
 >
 > 🌎
 > </details>
@@ -221,7 +221,7 @@
 > :revolving_hearts:
 >
 > ##### Hiring and Collaboration
-> There is a [personal repository][602] dedicated to hiring and collaboration. If you are located in Switzerland this is the place, where you can find some sort of CV and contact information.
+> There is a [personal repository][601] dedicated to hiring and collaboration. If you are located in Switzerland this is the place, where you can find some sort of CV and contact information.
 >
 > ##### Donations 
 > The qoolixiloop repositories will constantly be filled with great content. This service to the general public comes as a huge effort from my side. In case you are a wealthy person or an executive of a big organization, not knowing, where to invest all the money that is pouring in, there is hope on the horizon. Below you will find my lonely and empty bank account, grateful and happy about any kind of attention. 
