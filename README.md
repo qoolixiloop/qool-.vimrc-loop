@@ -7,10 +7,10 @@
 
 
 ### ⏳ TL;DR 
-> T his site is all about you, getting started with **Vim as an IDE** and being able to understand the important role of the **'.vimrc' configuration file**. If you like to find out, what tools and information I prepared for you, then please click on the button below.  
+> This site is all about you, getting started with **Vim as an IDE** and being able to understand the important role of the **'.vimrc' configuration file**. If you like to find out, what tools and information I prepared for you, then please click on the button below.  
 >
 > <details>
-> <s ummary> 📖  read more... </summary>
+> <summary> 📖  read more... </summary>  
 > ⏳  
 >  
 > #### Word of advice 
@@ -58,7 +58,7 @@
 > The file and the folder are ready to be shared. Please click the button below to get further instructions.  
 >
 > <details>
-> <summary> 📖  show resources to download </summary>
+> <summary> 📖  show resources to download </summary>  
 > 🎁
 >   
 > 1. Go to your download folder (on Linux Ubuntu)  
@@ -84,7 +84,7 @@
 > Please click the button below. The steps show, how to install and run Vim. It's easy, just a few clicks and you can start writing your Python, Java or Bash Code in your new IDE.  
 >
 > <details>
-> <summary> 📖  show the instructions </summary>
+> <summary> 📖  show the instructions </summary>  
 >
 > 📜
 >   
@@ -107,7 +107,7 @@
 > * In order to get the promised explanations about the [content of my '.vimrc' file][1503] you may later want to visit my wiki page. (Ctrl-click to open the link in a new tab)  
 >
 > 📜
-</details>
+> </details>
 
 
 
@@ -118,7 +118,7 @@
 > By clicking the button below you will see the links of some sites I bookmarked and some internal resources I used to learn about Vim, Vimscript and its configuration.  
 > 
 > <details>
-> <summary> 📖  show the links </summary>
+> <summary> 📖  show the links </summary>  
 >
 > 🌎
 >
@@ -157,7 +157,7 @@
 > Because the learning curve for many of those tools and languages I used was steeper than necessary, I decided to provide some of my resources, references and examples, in order to help new learners better understand important topics.  
 >
 > <details>
->  <summary> 📖  list of repositories </summary>
+>  <summary> 📖  list of repositories </summary>  
 >
 > 🗄️
 >
