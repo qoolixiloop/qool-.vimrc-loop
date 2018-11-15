@@ -7,7 +7,7 @@
 
 
 ### ⏳ TL;DR 
-> This site is all about you, getting started with Vim as an IDE and being able to understand the important role of the '.vimrc' configuration file. If you like to find out, what tools and information I prepared for you, then please click on the button below.
+> This site is all about you, getting started with Vim as an IDE and being able to understand the important role of the '.vimrc' configuration file. If you like to find out, what tools and information I prepared for you, then please click on the button below.  
 >
 > <details>
 > <summary> 📖  read more... </summary>
@@ -15,31 +15,32 @@
 > ⏳
 >
 > #### Why could you profit from the content of this repository?...
-> * ... Because you already have Vim installed, and would like to try out my configuration instead of creating one on your own.  
-> but you are not sure, whether it serves your purpose.
+> * Maybe because you already have Vim installed, and would like to try out my configuration, instead of creating one on your own.  
+> But you are not sure, whether it serves your purpose.  
 >
-> * ... Because you already have your own '.vimrc' configuration and would like to copy/paste some of my content,  
-> but you are struggling to understand the effects of the different parts.  
+> * Or perhaps because you already have your own '.vimrc' configuration and would like to copy/paste some of my content.  
+> But you are struggling to understand the effects of the different parts.  
 >
-> * ... Because you have downloaded the '.vim' folder as well as the '.vimrc' configuration file from [my vim repository][1401], and have read the [content of my vim wiki pages][1402].  
-> but now you would like to understand every single line of the '.vimrc' file
+> * Or because you have already downloaded the '.vim' folder as well as the '.vimrc' configuration file from [my vim repository][1401], and have read the [content of my vim wiki pages][1402].  
+> But now you would like to understand every single line of the '.vimrc' file.  
 >
 > Did you find anything?  
-> Then please read on. 
+> Then please read on.  
 >   
 > ⏳
 >
 > #### How the qoolixiloop repositories intend to make his friends productive
 > * The configuraton file, contains the needed instructions to run Vim as an IDE for Python, Java or Bash.  
-> so you won't have to search for the needed plugins and make them work.  
+> So you won't have to search for the needed plugins and make them work by
+> yourself.  
 >
-> * The configuration file, also contains many useful key bindings to run some commands or macros, or to simply let you make thing without leaving the insert mode.   
-> so you won't have to search or implement and test them by yourself.
+> * The configuration file, also contains many useful key bindings to run commands or macros, or to simply let you make thing without e.g. leaving the insert mode.   
+> So you won't have to search or implement and test them by yourself.
 >
 > * In case you would like to adapt the behaviour of your Vim, it helps to learn from a well documented and already running system. 
-> For that reason I will put the '.vimrc' file on [my wiki page][&&&] and give line by line explanations and comments.  
+> For that reason I will put the '.vimrc' file on my wiki page and give further [line by line explanations and comments][1503].  
 >
-> * Because the configuration file is written in Vimscrip, I will provide some useful links to resources I used to learn the language.  
+> * Vim has it's own programming language called Vimscript. The configuration file and plugins are written in Vimscript. That is why I will provide some useful links to resources I used to learn the language.  
 > In case you prefer to use your web search engine for your questions, you will still have to try out the right words for your search and will usually end up on one of those web sites.  
 >
 > Does this already sound like Christmas?  
@@ -52,7 +53,7 @@
 
 
 ### 🎁 Download my '.vim' folder and my '.vimrc' file
-> The file and the folder are ready to be shared. Please click the button below to get further insructions.  
+> The file and the folder are ready to be shared. Please click the button below to get further instructions.  
 >
 > <details>
 > <summary> 📖  show the examples </summary>
@@ -64,9 +65,9 @@
 > 2. Clone the repository into your download folder   
 >        $ https://github.com/qoolixiloop/qool-.vimrc-loop.git
 >
-> 3. In case you already have an own copy of the '.vim' folder and '.vimrc' file in your home directory you may move them first into a backup folder or rename them
+> 3. In case you already have an own copy of the '.vim' folder and '.vimrc' file in your home directory you might want to move them first into a backup folder or rename them.
 >
-> 4. Now you can savely move my '.vim' folder and '.vimrc' file it to your home directory
+> 4. Now you can savely move my '.vim' folder and '.vimrc' file it to your home directory.
 >        $ mv src/.vimrc $HOME
 >        $ mv src/.vim $HOME
 >
@@ -78,14 +79,14 @@
 
 ### 📜 Instructions on how to use .vim and .vimrc
 > 
-> Please click the button below. The few steps show, how to install and run Vim. It's easy, Just a few steps and you can start writing your Python, Java or Bash Code in your new IDE. 
+> Please click the button below. The steps show, how to install and run Vim. It's easy, just a few clicks and you can start writing your Python, Java or Bash Code in your new IDE.  
 >
 > <details>
 > <summary> 📖  show the instructions </summary>
 >
 > 📜
 >   
->    * In case you may  want to install some additional software like shellcheck or powerline from your software center, in Linux Ubuntu just type:  
+>    * In case you would like to install some additional software, like shellcheck or powerline from your software center, in Linux Ubuntu just type:  
 >         $ sudo apt install powerline
 >         $ sudo apt install shellcheck  
 >
@@ -101,8 +102,7 @@
 >    * That's it! To save the file just type:
 >         :w
 >
-> * In order to get the promised explanations about the content of the '.vimrc'
->   file you may now want to visit [my wiki page][&&&]
+> * In order to get the promised [explanations about the content of my '.vimrc' file][1503] you may later want to visit my wiki page. (Ctrl-click to open the link in a new tab)
 >
 >📜
 </details>
@@ -111,8 +111,11 @@
 
 
 ### 🌎 Links
-> To share the links of web pages, which present their content in a clear and easy to read manner is one of the main objectives of my repositories. There is no need to reinvent the wheel, because most of the time there are already excellent resources out there, where the reader can find the needed information. But often, even with the help of one's preferred search engine, one ends up spending one's time with searching instead of working.  
-> By clicking the button below you will see the links of my top &&& sites for &&&. If you still struggle with the syntax, then you may consider &&& as described [here][&&&].
+> To share the links of web pages, which present their content in a clear and easy to read manner is one of the main objectives of my repositories. There is no need to reinvent the wheel, because most of the time there are already excellent resources out there, where the reader can find the needed information. But often, even with the help of one's preferred search engine, one ends up spending one's time with searching instead of working.   
+>
+> One word of advice: More importantly than learning everything or loading your Vim with ever more plugins is getting advice on how to work efficiently. I personally use Tmux to create windows, use Vim netrw to open files in tabs, use manual folding for easy scrolling in my file (with a trick in my configuration file, so that they are stored after closing). I first used the Vimtutor, which taught me within an hour, how to open/save a file, copy/paste, search/replace, or how to navigate.
+>
+> By clicking the button below you will see the links of some sites I bookmarked and some internal resources I used to learn about Vim, Vimscript and its configuration.  
 >
 > <details>
 > <summary> 📖  show the links </summary>
@@ -121,21 +124,26 @@
 >
 > | What the link provides ('Ctrl-click' to open in new tab) | Link to website
 > |:---------------------------------------- | :----------------------------------------| 
-> | over 1600 excellent pages         | [Fandom vim Tips Wiki][11]  
-> | learn Vimscript and how to write a plugin | [Learn Vimscript the hard way][12]  
+> | over 1600 excellent pages         | [Fandom vim Tips Wiki][11]  |
+> | learn Vimscript and how to write a plugin | [Learn Vimscript the hard way][12]  |
+> | keyboard picture with Vim key bindings   | [Graphical vi-vim Cheat Sheet and Tutorial][13]
+> | list of default vim key bindings | [Vim Commands Cheat Sheet][15]
+> | also very useful for specific questions | [Stackoverflow][14]
+>
+> * There are many other summaries about Vim key bindings. Just type 'Vim cheet sheet' into your search engine. But be warned, for some of them you need really good eyes. I usually just copy/paste what I need into a libreoffice writer document, and make my own summary.
 >
 > * For descriptions about a command or function you may also find answers inside the help pages by typing:  
->        :help command  
+>         :help command  
 >
 > * In order to get an overview you can open the help pages and search for quickref, reference, index or user-manual.  
-         :help  
-         /quickref  
+>         :help  
+>         /quickref  
 >
 > * There is also a tutor page, which is very useful, to learn the basics of the Vim editor.  
->        $ vimtutor
+>         $ vimtutor
 >
 > * To check your Vim version (and e.g. if it is compile with Python 3)  
->        :version
+>         :version
 >
 > 🌎
 > </details>
@@ -274,8 +282,13 @@ qoolixiloop 15. Nov. 2018
 
 [11]: http://vim.wikia.com/wiki/Vim_Tips_Wiki
 [12]: http://learnvimscriptthehardway.stevelosh.com/
+[13]: http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
+[14]: https://stackoverflow.com
+[15]: http://fprintf.net/vimCheatSheet.html
+
 
 [50]: #-download-my-markdown-files
+
 
 [101]: https://github.com/qoolixiloop/qool-helloworld-loop "qool-helloworld-loop"
 [102]: https://github.com/qoolixiloop/qool-helloworld-loop/wiki "qool-helloworld-loop.wiki"
@@ -308,4 +321,5 @@ qoolixiloop 15. Nov. 2018
 [1402]: https://github.com/qoolixiloop/qool-vim-loop/wiki "qool-vim-loop/wiki"
 [1501]: https://github.com/qoolixiloop/qool-.vimrc-loop "qool-.vimrc-loop"
 [1502]: https://github.com/qoolixiloop/qool-.vimrc-loop/wiki "qool-.vimrc-loop/wiki"
-
+ [1503]: https://github.com/qoolixiloop/qool-.vimrc-loop/wiki/My-.vimrc-configruation-file-explained-in-detail
+ 
