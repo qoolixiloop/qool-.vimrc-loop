@@ -7,12 +7,14 @@
 
 
 ### ⏳ TL;DR 
-> This site is all about you, getting started with Vim as an IDE and being able to understand the important role of the '.vimrc' configuration file. If you like to find out, what tools and information I prepared for you, then please click on the button below.  
+> This site is all about you, getting started with **Vim as an IDE** and being able to understand the important role of the **'.vimrc' configuration file**. If you like to find out, what tools and information I prepared for you, then please click on the button below.  
 >
 > <details>
 > <summary> 📖  read more... </summary>
->
-> ⏳
+> ⏳  
+>  
+> #### Word of advice 
+ > More importantly than learning everything or loading your Vim with ever more plugins is getting advice on how to work with it efficiently. One of my first steps to learn the basics was the Vimtutor, which taught me within an hour or so, how to open/save a file, copy/paste, search/replace, or how to navigate. I personally use Tmux to create windows and splits, use Vim netrw to open files in new tabs, rename or delete them, use manual folding for easy scrolling in my large files (with a trick in my '.vimrc' configuration file, so that they are stored after closing). I have syntax highlighting and syntax checking for different file types, as well as intellisene and word completion. In order to compare or merge files or versions I usually use Vimdiff or kdiff3. And to step through my code I use a debugger like pdb or bashdb.
 >
 > #### Why could you profit from the content of this repository?
 > * Maybe because you already have Vim installed, and would like to try out my configuration, instead of creating one on your own.  
@@ -112,8 +114,6 @@
 
 ### 🌎 Links
 > To share the links of web pages, which present their content in a clear and easy to read manner is one of the main objectives of my repositories. There is no need to reinvent the wheel, because most of the time there are already excellent resources out there, where the reader can find the needed information. But often, even with the help of one's preferred search engine, one ends up spending one's time with searching instead of working.   
->
-> **Word of advice:** More importantly than learning everything or loading your Vim with ever more plugins is getting advice on how to work efficiently. I personally use Tmux to create windows, use Vim netrw to open files in tabs, use manual folding for easy scrolling in my file (with a trick in my configuration file, so that they are stored after closing). I first used the Vimtutor, which taught me within an hour, how to open/save a file, copy/paste, search/replace, or how to navigate. To compare or merge files I usually use Vimdiff or kdiff3.
 >
 > By clicking the button below you will see the links of some sites I bookmarked and some internal resources I used to learn about Vim, Vimscript and its configuration.  
 >
