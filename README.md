@@ -23,7 +23,7 @@
 > * Or perhaps because you already have your own '.vimrc' configuration and would like to copy/paste some of my content.  
 > But you are struggling to understand the effects of the different parts.  
 >
-> * Or because you have already downloaded the '.vim' folder as well as the '.vimrc' configuration file from [my Vim repository][1401], and have read the content of [my Vim Wiki pages][1402].  
+> * Or because you have already downloaded the '.vim' folder as well as the '.vimrc' configuration file from my [Vim repository][1401], and have read the content of my [Vim Wiki pages][1402].  
 > But now you would like to understand every single line of the '.vimrc' file.  
 >
 > Did you find anything?  
@@ -175,7 +175,7 @@
 > | Links to repositories ('Ctrl-click' to open in new tab)         | Contents
 > |:-------------------------------| :----------------------------------------| 
 > [qool-helloworld-loop][101]      | My personal project descriptons
-> [qool-helloworld-loop.wiki][102] (@) | More general topics
+> [qool-helloworld-loop.wiki][102] | More general topics
 > [qool-angular2-loop][201]        | Client side code of strategy game
 > [qool-angular2-loop.wiki][202]   | Comments and language specific resources
 > [qool-awk-loop][301]             | Code snippets
