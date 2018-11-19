@@ -31,7 +31,7 @@
 >   
 > ⏳
 >
-> #### How qoolixiloop's repositories intend to make his friends productive
+> #### How qoolixiloop's repository intend to make his friends productive
 > * The configuraton file, contains the needed instructions to run Vim as an IDE for Python, Java or Bash.  
 > So you won't have to search for the needed plugins and make them work by yourself.  
 >
@@ -49,8 +49,6 @@
 >
 > ⏳
 > </details>
-
-
 
 
 ### 🎁 Download my '.vim' folder and my '.vimrc' file
@@ -76,10 +74,7 @@
 > </details>
 
 
-
-
 ### 📜 Instructions on how to use .vim and .vimrc
-> 
 > Please click the button below. The steps show, how to install and run Vim. It's easy, just a few clicks and you can start writing your Python, Java or Bash Code in your new IDE.  
 >
 > <details>
@@ -107,8 +102,6 @@
 >
 > 📜
 > </details>
-
-
 
 
 ### 🌎 Links
@@ -148,10 +141,7 @@
 > </details>
 
 
-
-
 ### 🗄️ qoolixiloop's repositories
->
 > By clicking the button below you will see a table with links to my 15 Code and 15 Wiki repositories as well as a short description of what is already available. They cover a small subset of programming languages I learned during the last 20 or so years. The focus is mainly on free and open source tools within the linux operating system universe.  
 > Because the learning curve for many of those tools and languages I used was steeper than necessary, I decided to provide some of my resources, references and examples, in order to help new learners better understand important topics.  
 >
@@ -207,8 +197,6 @@
 >
 > 🗄️
 > </details>
-
-
 
 
 ### 💻 About me
